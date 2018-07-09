@@ -734,6 +734,12 @@ fi
 		# Check for flow sensor - as it is a background task, launch it last
 		px4flow start &
 	fi
+	
+	if ver hwcmp AEROFC_V1
+	then
+		# Check for flow sensor - as it is a background task, launch it last
+		px4flow start &
+	fi
 
 	if ver hwcmp AEROFC_V1
 	then
