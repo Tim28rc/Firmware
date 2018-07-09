@@ -9,6 +9,7 @@ set(config_module_list
 	#
 	drivers/aerofc_adc
 	drivers/distance_sensor
+	drivers/px4flow
 	drivers/gps
 	drivers/barometer/ms5611
 	drivers/magnetometer/hmc5883
