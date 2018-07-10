@@ -42,7 +42,7 @@ px4_add_module(
 		BlockLocalPositionEstimator.cpp
 		sensors/flow.cpp
 		sensors/lidar.cpp
-		sensors/sonar.cpp
+		#sensors/sonar.cpp
 		sensors/gps.cpp
 		sensors/baro.cpp
 		sensors/vision.cpp
