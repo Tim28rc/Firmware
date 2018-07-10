@@ -394,6 +394,9 @@ fi
 if param greater SENS_EN_MB12XX 0
 then
 	mb12xx start
+else
+	mb12xx start
+	mb12xx stop
 fi
 
 # teraranger one tof sensor
